@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE74F73154E6624000810E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE74F72154E6624000810E2 /* Foundation.framework */; };
+		CAE74F76154E6624000810E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE74F75154E6624000810E2 /* main.m */; };
+		CAE74F7A154E6624000810E2 /* ExpressionCalculator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAE74F79154E6624000810E2 /* ExpressionCalculator.1 */; };
+		CAE74F87154E670B000810E2 /* MathOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE74F85154E66BE000810E2 /* MathOperations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAE74F6C154E6624000810E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CAE74F7A154E6624000810E2 /* ExpressionCalculator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAE74F6E154E6624000810E2 /* ExpressionCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExpressionCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE74F72154E6624000810E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAE74F75154E6624000810E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE74F78154E6624000810E2 /* ExpressionCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpressionCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		CAE74F79154E6624000810E2 /* ExpressionCalculator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ExpressionCalculator.1; sourceTree = "<group>"; };
+		CAE74F85154E66BE000810E2 /* MathOperations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathOperations.m; sourceTree = "<group>"; };
+		CAE74F86154E66BE000810E2 /* MathOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathOperations.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE74F6B154E6624000810E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE74F73154E6624000810E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE74F63154E6624000810E2 = {
+			isa = PBXGroup;
+			children = (
+				CAE74F74154E6624000810E2 /* ExpressionCalculator */,
+				CAE74F71154E6624000810E2 /* Frameworks */,
+				CAE74F6F154E6624000810E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE74F6F154E6624000810E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE74F6E154E6624000810E2 /* ExpressionCalculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE74F71154E6624000810E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAE74F72154E6624000810E2 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE74F74154E6624000810E2 /* ExpressionCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				CAE74F79154E6624000810E2 /* ExpressionCalculator.1 */,
+				CAE74F75154E6624000810E2 /* main.m */,
+				CAE74F86154E66BE000810E2 /* MathOperations.h */,
+				CAE74F85154E66BE000810E2 /* MathOperations.m */,
+				CAE74F77154E6624000810E2 /* Supporting Files */,
+			);
+			path = ExpressionCalculator;
+			sourceTree = "<group>";
+		};
+		CAE74F77154E6624000810E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE74F78154E6624000810E2 /* ExpressionCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE74F6D154E6624000810E2 /* ExpressionCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE74F7D154E6624000810E2 /* Build configuration list for PBXNativeTarget "ExpressionCalculator" */;
+			buildPhases = (
+				CAE74F6A154E6624000810E2 /* Sources */,
+				CAE74F6B154E6624000810E2 /* Frameworks */,
+				CAE74F6C154E6624000810E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpressionCalculator;
+			productName = ExpressionCalculator;
+			productReference = CAE74F6E154E6624000810E2 /* ExpressionCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE74F65154E6624000810E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CAE74F68154E6624000810E2 /* Build configuration list for PBXProject "ExpressionCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAE74F63154E6624000810E2;
+			productRefGroup = CAE74F6F154E6624000810E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE74F6D154E6624000810E2 /* ExpressionCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE74F6A154E6624000810E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE74F76154E6624000810E2 /* main.m in Sources */,
+				CAE74F87154E670B000810E2 /* MathOperations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAE74F7B154E6624000810E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAE74F7C154E6624000810E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAE74F7E154E6624000810E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpressionCalculator/ExpressionCalculator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE74F7F154E6624000810E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpressionCalculator/ExpressionCalculator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE74F68154E6624000810E2 /* Build configuration list for PBXProject "ExpressionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE74F7B154E6624000810E2 /* Debug */,
+				CAE74F7C154E6624000810E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE74F7D154E6624000810E2 /* Build configuration list for PBXNativeTarget "ExpressionCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE74F7E154E6624000810E2 /* Debug */,
+				CAE74F7F154E6624000810E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE74F65154E6624000810E2 /* Project object */;
+}
