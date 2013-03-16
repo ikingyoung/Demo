@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'OOP-HR' target in the 'OOP-HR' project
-//
-
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-#endif
